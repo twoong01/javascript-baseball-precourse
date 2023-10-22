@@ -7,7 +7,7 @@ function generateRandomNumbers() {
       computerNumber.push(randomNumber);
     }
   }
-  console.log(computerNumber);
+  return computerNumber;
 }
 
 export default generateRandomNumbers;
